@@ -1,0 +1,1185 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+:root {
+    --color: #f11821;
+  }
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    color: #888; 
+    line-height: 30px;
+}
+
+
+/*Navigation*/
+header>.navbar{
+    background: white;
+}
+header>.nav-item{
+    font-weight: bold;
+}
+.nav-item .btn{
+    padding: 8px;
+}
+/*Home*/
+#home{
+    margin:0px;
+}
+.overlay{
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:white;
+}
+#home .flexbox-col{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home .info-col{
+    flex-direction: column;
+    flex: 100%;
+    align-items: center;
+}
+#home h1{
+    font-size: 34px;
+    margin-top: 32%;
+}
+#home p{
+    font-size: 18px;
+    margin-top: 0%;
+}
+#home .btn-col{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    background: var(--color);
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+}
+.btn-light{
+    background: white;
+    color: var(--color);
+    border-radius:10px;
+}
+
+
+/*aboutus*/
+#aboutus{
+    margin-top: 3%;
+}
+#aboutus .info-col{
+    display: flex;
+    flex: 70%;
+    justify-content: center;
+    align-items: center;
+}
+#aboutus .h-col{
+margin-bottom: 5%;
+}
+#aboutus .p-col{
+    text-align:center;
+    line-height: 2rem;
+    margin-left: 10%;
+}
+#aboutus .btn{
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+}
+#aboutus .form-col{
+    flex: 30%;
+}
+.form-control{
+    border:none;
+    background:#f2f3f5; 
+    color: #77787a;
+}
+
+
+/*Buy Parts*/
+.card-design{
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:white
+}
+.crd-fst{
+    margin-left:40%;
+    margin-top: 6%;
+    font-size: 34px;
+    font-weight: bold;
+} 
+.a-fst{
+    float: right;
+    padding: 0.25rem 0.5rem;
+    margin-top: -5%;
+}
+.card-designn{
+    position: absolute; /* Position the background text */
+    background: rgb(255, 172,0,0.63); /* Black background with 0.5 opacity */
+    color:black;
+}
+.card-designn h1{
+    font-size: 34px;
+    font-weight: bold;
+}
+.crd-lst{
+    margin-left:0%;
+    margin-top: 6%;
+    margin-right: 40%;
+    font-size: 34px;
+    font-weight: bold;
+}
+.a-lst{
+    margin-top: -9%;
+    padding: 0.25rem 0.5rem;
+}
+
+
+/*Product*/
+.flexbox{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-item{
+    height: 320px;
+    width: 400px;
+    background: #dedede;
+    border: 1px solid #c1c1c1;
+    border-radius: 40px;
+}
+
+
+/*Announcement*/
+.alert{
+    background: var(--color);
+    color:white;
+    font-size: 18px;
+}
+.alert>.btn{
+    color:black;
+    float: right;
+    margin-top: 1%;
+    padding: 0.25rem 1rem;
+    
+}
+.alert>.fa-times{
+    background: var(--color);
+    color:white;
+    float: right;
+}
+
+
+/*Brands*/
+.brands h1 {
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.brands p{
+    margin-left: 5%;
+}
+.text{
+    margin-left: 7%;
+}
+.flexbox>.item{
+    width:150px;
+    height: 150px;
+    border:1px solid black;
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+}
+
+
+/*News and Events*/
+.card{
+    border:none;
+    border-radius: none;
+}
+.card-design1{
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:white
+}
+.card-design1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 5%;
+} 
+.card-design1 p{
+    margin-left: 5%;
+} 
+#news>.flexbox{
+    margin-top: -15%;
+}
+#news>.flexbox>.flex-item h5{
+   text-align: center;
+   font-weight: bold;
+   color:#6b6b6b;
+}
+
+
+
+/*faq*/
+#faq h1{
+    font-size: 30px;
+}
+
+/*Shipment Section*/
+.flexbox-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.info-col{
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    text-align: justify;
+}
+.h-col{
+    font-size: 32px;
+}
+.p-col{
+    margin-left: 2%;
+    margin-right: 20%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.p-col .btn{
+    margin-left: 5%;
+    padding: 0.5rem 1rem;
+}
+.form-col{
+    flex: 40%;
+    margin-right: 5%;
+    background: white;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
+.form-col .btn{
+    padding: 0.25rem 0.5rem;
+}
+
+
+/*Newsletter Section*/
+.newsltr{
+    color: var(--color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+#nwsltr .form-control{
+    text-align: center;
+}
+#nwsltr .btn{
+    padding: 0.25rem 1rem;
+}
+
+
+/* Create four equal columns */
+.prnt-col {
+    display:flex ;
+    justify-content: center;
+    background: #f2f3f5;
+    margin-top: 5%;
+}
+
+.chld-col{
+    flex: 25%;
+    justify-content: center;
+    margin: 3% 0% 3% 7%;
+}
+.chld-col h4{
+    margin-bottom: 5%;
+    color: #484b52;
+    font-size: 18px;
+    font-weight: bold;
+}
+.chld-col a{
+    text-decoration: none;
+    margin-bottom: 0px;
+    color:#666;
+}
+.chld-col p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    color:#b1b2b4;
+}
+.prnt-col>.chld-col>img{
+    height: 65%;
+}
+
+/***** Footer *****/
+.footer-top { padding: 50px 0; background: #333; text-align: left; color: #aaa; width: 99%;}
+.footer-top h3 { padding-bottom: 10px; color: #aaa; font-size: 20px; font-weight: bold;}
+
+.footer-about p{margin-bottom: 0px; font-size: 14px;}
+.footer-about p a { color: #aaa; border-bottom: 1px #666; text-decoration: none;}
+.footer-about p a:hover, .footer-about p a:focus { color: #fff; border-color: #aaa; }
+
+.footer-about .flexbox-col{display:flex ;flex:100%;padding: 20px;justify-content: flex-start;}
+.footer-col{display: flex;flex-direction: row;flex: 85%;}
+.footer-col-1{flex:15%;}
+
+.footer-contact p { word-wrap: break-word; line-height: 20px; }
+.footer-contact i { padding-right: 10px; font-size: 18px; color: #666; }
+.footer-contact p a { color: #aaa; border-bottom: 1px  #666; }
+.footer-contact p a:hover, .footer-contact p a:focus { color: #fff; border-color: #aaa; }
+
+.footer-social a { display: inline-block; margin-right: 20px; margin-bottom: 8px; color: #777; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #aaa; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+.footer-copyright {margin-bottom: -2%; }
+
+.footer-copyright p { margin: 0; }
+.footer-copyright a { color: #fff; border: 0; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
+
+
+
+
+   /* Tablet  View*/
+@media screen and (max-width: 1024px){
+    *{
+        margin:0px;
+        padding: 0px;
+
+    }
+    .btn{
+        font-size: 20px;
+    }
+
+    /*Home*/
+    .overlay{
+        position: absolute; /* Position the background text */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color:white;
+    }
+    #home h1{
+        font-size: 34px;
+        margin-top: 15%;
+    }
+    /*About us*/
+    #aboutus .flexbox-col{
+        flex-direction: row;
+        justify-content: center;
+    }
+    #aboutus .info-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;            
+        align-items: center;
+        flex: 50%;
+    }
+    #aboutus img{        
+        margin-bottom: 5%;
+        margin-left: -20%;
+    }
+    #aboutus .p-col{
+        text-align:justify;
+        line-height: 2rem;
+        margin-left: 10%;
+    }
+    #aboutus .btn{
+        font-size: 14px;
+    }
+    #aboutus .form-col{           
+        flex: 50%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-right: 8%;
+    }
+    #aboutus .form-control{
+        border:none;
+        background:#f2f3f5; 
+        color: #77787a;
+        padding:20px;
+    }
+    .form-col button{
+        padding: 10px;
+        border-radius: 0px;
+    }
+
+    /*Buy Parts*/
+    .card-design h1{
+        margin:0%;
+        margin-top: 6%;
+        font-size: 30px;
+        font-weight: bold;
+    } 
+    .card-design a{
+        float: left;
+        padding: 5px 20px;
+    }
+    .card-designn h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    /*Products*/
+    .flexbox {
+        flex-wrap: wrap;
+    }
+    .flex-item{
+         height: 300px;
+         width: 300px;
+         margin-left: 0px;
+    }
+    /*News And Events*/
+    #news p{
+        display: block;
+        font-size: 20px;
+    }
+
+    /*faq*/
+    #faq{
+        margin-left: 60px;
+    }
+    #faq h1{
+        font-size: 28x;
+    }
+
+    /*shipment*/
+    #shipment .flexbox-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #shipment .info-col{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+    #shipment .h-col{
+        font-size: 32px;
+        flex: 50%;
+        text-align: center;
+    }
+    #shipment .p-col{
+        flex: 50%;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #shipment .form-col{
+        margin-top: 20%;
+        flex: 100%;
+        margin-left: 7%;
+    }
+
+    /*Newsletter*/
+    #nwsltr{
+        margin-top: 40%;
+    }
+    #nwsltr>.py-5>.container{
+        width:100%;
+    }
+    #nwsltr input{
+        border:none;
+        width:80%;
+        margin-left: 24%;
+    }
+    #nwsltr button{
+        margin-left: 5%;
+    }
+
+    /*Footer*/
+    .prnt-col {
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10%;
+    }
+    .chld-col{
+        flex: 30%;
+        margin-top: 5%;
+        margin-left: 14%;
+        font-size: 20px;
+    }
+    .prnt-col>.chld-col>img{
+        height: 100%;
+        width: 75%;
+        margin-left: 0px;
+    }
+    .footer-contact h3{
+        margin-left: 5%;
+       
+    }
+    .footer-contact .flexbox-col{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Tablet  View*/
+@media screen and (max-width: 768px){
+    *{
+        margin-right: 0px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+
+    /*Home*/
+    #home h1{
+        font-size: 25px;
+    }
+    #home p{
+        font-size: 14px;
+    }
+    #home button{
+        font-size: 14px;
+    }
+    /*About us*/
+    #aboutus .flexbox-col{
+        flex-direction: column;
+       align-items: center;
+    }
+    #aboutus .info-col{
+        display: flex;
+        flex: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #aboutus .h-col{
+        margin-bottom: 5%;
+        margin-left: -9%;
+    }
+    #aboutus .p-col{
+        text-align:center;
+        line-height: 2rem;
+    }
+    #aboutus .info-col .btn{
+        font-size: 14px;
+        margin-left: -9%;
+    }
+    #aboutus .form-col{
+        flex: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #aboutus .form-control{
+        border:none;
+        background:#f2f3f5; 
+        color: #77787a;
+    }
+
+    /*Buy Parts*/
+    .card-design h1{
+        margin-left:0%;
+        margin-top: 6%;
+        font-size: 25px;
+        font-weight: bold;
+    } 
+    .card-design a{
+        float: left;
+    }
+    .crd-lst{
+        margin-right: 0px;
+        margin-left: 0px;
+        display:  inline;
+    }
+    .a-lst{
+        margin-top: 2%;
+    }
+
+    .card-designn h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    /*Products*/
+    .flexbox {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .flex-item{
+        height: 300px;
+        width: 200px;
+        flex:50%;
+        margin: 1em 4em;
+    }
+
+    /*News And Events*/
+    #news p{
+        display: block;
+        font-size: 20px;
+    }
+  
+    /*Announcement*/
+    .alert>.fa-times{
+        display: none;
+    }
+    .alert>.btn{
+        font-size: 18px;
+    }
+    /*faq*/
+    #faq{
+        margin-left: 10px;
+    }
+    #faq h1{
+        font-size: 25px;
+    }
+
+    /*Shipment Section*/
+    #shipment .flexbox-col{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #shipment .info-col{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        flex: 100%;
+    }
+    #shipment .h-col{
+        font-size: 32px;
+        flex: 50%;
+        margin-top: -10%;
+    }
+    #shipment .p-col{
+        flex: 50%;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: -5%;
+    }
+    #shipment .form-col{
+        margin-top: 7%;
+        flex: 100%;
+    }
+
+    /*Newsletter*/
+    #nwsltr{
+        margin-top: 48%;
+    }
+    #nwsltr>.py-5>.container{
+        width:100%;
+    }
+    #nwsltr input{
+        border: none;
+        margin-left: 20%;
+    }
+    #nwsltr button{
+        margin-right: 0px;
+    }
+
+    /*Footer*/
+    .prnt-col {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+    .chld-col{
+        flex: 30%;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+    .chld-col img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer-about,.footer-contact,.footer-social{
+        flex:50%;
+    }
+   .footer-contact{
+        margin-left: 8%;
+       
+    }
+    .footer-about p, .footer-about h3{
+        margin-left: 20%;
+    }
+    .footer-about p, .footer-about h3{
+        margin-left: 25%;
+    }
+    .footer-social h3, .footer-about h3{
+        margin-top:10%;
+    }
+    .footer-social p, .footer-social h3{
+        margin-left: 8%;
+    }
+}
+
+
+@media screen and (max-width: 640px) and (min-width:500px){
+    header .nav-item a{
+        text-align: center;
+    }
+    *{
+        margin-right: 0px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+
+    /*Home*/
+    #home h1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    #home p{
+        font-size: 14px;
+    }
+    #home button{
+        font-size: 14px;
+    }
+    /*About us*/
+    #aboutus .flexbox-col{
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    #aboutus .info-col{
+        display: flex;
+        flex: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #aboutus .h-col{
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    #aboutus .p-col{
+        text-align:justify;
+        line-height: 2rem;
+        margin-left: 18%;
+    }
+    #aboutus .info-col .btn{
+        font-size: 14px;
+        margin-left: -9%;
+    }
+    #aboutus .form-col{
+        flex: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #aboutus .form-control{
+        border:none;
+        background:#f2f3f5; 
+        color: #77787a;
+    }
+
+    /*Buy Parts*/
+    .card-design h1{
+        margin-left:0%;
+        margin-top: 6%;
+        font-size: 25px;
+        font-weight: bold;
+    } 
+    .card-design a{
+        float: left;
+    }
+    .crd-lst{
+        margin-right: 0px;
+        margin-left: 0px;
+        display:  inline;
+    }
+    .a-lst{
+        margin-top: 2%;
+    }
+
+    .card-designn h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    /*Products*/
+    .flexbox {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .flex-item{
+        height: 300px;
+        width: 200px;
+        flex:50%;
+        margin: 1em 4em;
+    }
+
+    /*News And Events*/
+    #news p{
+        display: block;
+        font-size: 20px;
+    }
+  
+    /*Announcement*/
+    .alert>.fa-times{
+        display: none;
+    }
+    .alert>.btn{
+        font-size: 16px;
+        margin-top: -3%;
+    }
+    /*faq*/
+    #faq{
+        margin-left: 10px;
+    }
+    #faq h1{
+        font-size: 25px;
+    }
+
+    /*Shipment Section*/
+    #shipment .flexbox-col{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #shipment .info-col{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        flex: 100%;
+        margin-left: 7%;
+    }
+    #shipment .h-col{
+        font-size: 32px;
+        flex: 50%;
+        margin-top: -8%;
+    }
+    #shipment p{
+        display: none;
+    }
+    #shipment .form-col{
+        margin-top: 13%;
+        flex: 100%;
+    }
+
+    /*Newsletter*/
+    #nwsltr{
+        margin-top: 500px;
+    }
+    #nwsltr>.py-5>.container{
+        width:100%;
+    }
+    #nwsltr input{
+        border: none;
+        margin-left: 15%;
+    }
+    #nwsltr button{
+        margin-right: 0px;
+        margin-left: 40%;
+        font-size: 14px;
+    }
+
+    /*Footer*/
+    .prnt-col {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+    .chld-col{
+        flex: 30%;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+    .chld-col img{
+        height: 100%;
+        width: 100%;
+    }
+    .footer-about,.footer-contact,.footer-social{
+        flex:50%;
+    }
+    .footer-contact .flexbox-col{
+        margin-left: 5%;
+    }
+    .footer-about p, .footer-about h3{
+        margin-left: 30%;
+    }
+    .footer-social h3{
+        margin-top: 8%;
+    }
+    .footer-social p, .footer-social h3{
+        margin-left: 8%;
+    }
+}
+
+
+/* Mobile  View*/
+@media screen and (max-width: 480px) and (min-width:220px){
+    *{
+        margin: 0px;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    header .nav-item a{
+        text-align: center;
+    }
+    /*Home*/
+    .overlay{
+        position: absolute; /* Position the background text */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color:white;
+    }
+    #home .flexbox-col{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    #home .info-col{
+        flex-direction: column;
+        flex: 60%;   
+    }
+    #home h1{
+        font-size: 18px;
+        margin-top: 12%;
+        margin-left: 10%;
+        text-align: center;
+        margin-right: 10%;
+    }
+    #home br{
+        display: none;
+    }
+    #home p{
+        display: none;
+    }
+    #home .btn-col{
+        display: flex;
+        flex-direction: column;
+        margin-right:  10%;
+        margin-top: 7%;
+    }
+    #home .btn{
+        font-size: 10px;
+        margin-bottom: 5%;
+        padding:0.5rem;
+    }
+   
+    /*About us*/
+    #aboutus .flexbox-col{
+        flex-direction: column;
+        align-items: center;
+    }
+    #aboutus .info-col{
+        display: flex;
+        flex: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #aboutus .h-col{
+        margin-top: 15%;
+        margin-bottom: 5%;
+        margin-left: 8%;
+    }
+    #aboutus .p-col{
+        font-size: 12px;
+        text-align:justify;
+        line-height: 2rem;
+        margin-left: 8%;
+        margin-right: 6%;
+    }
+    #aboutus .info-col .btn{
+        font-size: 10px;
+        margin-left: 0%;
+    }
+    #aboutus .form-col{
+        flex: 100%;
+        margin: 20px 0px;
+        margin-bottom: 10%;
+        align-items: center;
+    }
+    .form-col .col{
+        flex: 100%;
+    }
+    .form-col .form-control{
+        margin-bottom: 1em;
+        font-size: 14px;
+    }
+    #aboutus br{
+        display: none;
+    }
+    #aboutus .btn{
+        width:50%
+    }
+
+    /*Buy Parts*/
+    .card-design h1{
+        margin-left:0%;
+        margin-top: 6%;
+        font-size: 22px;
+        font-weight: bold;
+    } 
+    .card-design a{
+        float: left;
+        padding: 5px 20px;
+    }
+    .card-designn h1{
+        font-size: 22px;
+        font-weight: bold;
+        text-align: start;
+        margin-top: 20%;
+    }
+    .card-designn br{
+        display: none;
+    }
+    /*Products*/
+    .flexbox {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .flex-item{
+        height: 220px;
+        width: 300px;
+        margin: 1em 1em;
+    }
+
+    /*Announcement*/
+    .alert{
+        display: block;
+        margin-top: -15%;
+    }
+    .alert>.btn{
+        display: none;  
+    }
+    .alert>.fa-times{
+      display: none;
+    }
+
+    /*Brands*/
+    .brands h1{
+        font-size: 22px;
+    }
+    .brands p{
+        font-size: 14px;
+    }
+    /*News And Events*/
+    #news h1{
+        font-size: 22px;
+    }
+    #news h5{
+        font-size: 16px;
+    }
+    #news p{
+        display: none;
+    }
+
+    /*Trust*/
+    #trust .flexbox{
+        flex-direction: column;
+    }
+    /*faq*/
+    #faq h1{
+        font-size: 20px;
+    }
+
+    /*Shipment Section*/
+    #shipment .flexbox-col{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #shipment .info-col{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        flex: 100%;
+        align-items: center;
+    }
+    #shipment h1{
+        font-size: 22px;
+        flex: 50%;
+        margin-top: 10%;
+    }
+    #shipment .p-col p{
+       display: none;
+    }
+    #shipment .form-col{
+        margin-top: 27%;
+        flex: 100%;
+    }
+    #shipment br{
+        display: none;
+    }
+
+    /*Newsletter*/   
+    #nwsltr{
+     margin-top: 450px;
+    }
+    #nwsltr h1{
+        font-size: 20px;
+    }
+    #nwsltr p{
+        font-size: 14px;
+        display: block;
+    }
+    #nwsltr input{
+        border: none;
+        margin-left: 10%;
+    }
+    #nwsltr button{
+        margin-top: 1em;
+        margin-left: 30%;
+    }
+
+
+    /*Footer*/
+    .prnt-col {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .chld-col{
+        flex: 100%;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+    .chld-col p{
+        margin-left: 5%;
+    }
+    .chld-col img{
+        height: 100%;
+        width: 100%;
+        margin-left: 10%;
+    }
+    .footer-contact{
+        margin-left: 0px;
+        
+    }
+    .footer-col{flex:90%}
+    .footer-col-1{flex: 10%;}
+    .footer-about,.footer-contact,.footer-social{
+        flex:100%;
+    }
+
+    .footer-about h3, .footer-social h3,.footer-about p, .footer-social p{
+        margin-left: 5%;
+    }
+    .footer-about h3{
+        margin-top: 5%;
+    }
+    
+}
